@@ -19,5 +19,5 @@ function ElectronReloader(module: NodeModule, options?: ElectronReloader.Options
 
 
 interface NodeRequireFunction {
-  (moduleName: '@whitetrefoil/electron-reloader'): typeof ElectronReloader;
+  (moduleName: '@whitetrefoil/electron-reloader-dotfiles'): typeof ElectronReloader;
 }
