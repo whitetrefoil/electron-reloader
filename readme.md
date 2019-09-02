@@ -1,3 +1,9 @@
+This is a fork of sindresorhus/electron-reloader which is able to include dotfiles. (Because I use `".building"` as webpack output dir).
+
+Below is original README:
+
+-----
+
 # electron-reloader [![Build Status](https://travis-ci.org/sindresorhus/electron-reloader.svg?branch=master)](https://travis-ci.org/sindresorhus/electron-reloader)
 
 > Simple auto-reloading for Electron apps during development
