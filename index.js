@@ -54,7 +54,7 @@ module.exports = (moduleObj, options) => {
 			'node_modules',
 			'**/*.map'
 		]
-		.concat(options.preserveDotfiles ? [/(^|[/\\])\../] : [])
+		.concat(!options.preserveDotfiles ? [/(^|[/\\])\../] : [])
 		.concat(options.ignore)
 	});
 
