@@ -1,5 +1,14 @@
 This is a fork of sindresorhus/electron-reloader which is able to include dotfiles. (Because I use `".building"` as webpack output dir).
 
+There's one more option in `options`:
+
+##### preserveDotfiles
+
+Type: `boolean`<br>
+Default: `false`
+
+Don't ignore dotfiles in default ignores.  Can still ignore specified files in `ignore` option.
+
 Below is original README:
 
 -----
