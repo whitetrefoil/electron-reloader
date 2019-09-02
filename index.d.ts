@@ -4,7 +4,6 @@
 
 /// <reference types="node" />
 
-export = ElectronReloader
 
 
 namespace ElectronReloader {
@@ -16,6 +15,11 @@ namespace ElectronReloader {
 }
 
 function ElectronReloader(module: NodeModule, options?: ElectronReloader.Options): void;
+
+
+declare module '@whitetrefoil/electron-reloader-dotfiles' {
+  export = ElectronReloader;
+}
 
 
 interface NodeRequireFunction {
