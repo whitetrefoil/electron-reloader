@@ -1,5 +1,5 @@
 {
-	"name": "electron-reloader",
+	"name": "@whitetrefoil/electron-reloader",
 	"version": "0.3.0",
 	"description": "Simple auto-reloading for Electron apps during development",
 	"license": "MIT",
