@@ -51,10 +51,11 @@ module.exports = (moduleObj, options) => {
 		cwd,
 		disableGlobbing: true,
 		ignored: [
-			/(^|[/\\])\../, // Dotfiles
 			'node_modules',
 			'**/*.map'
-		].concat(options.ignore)
+		]
+		.concat(options.preserveDotfiles ? [/(^|[/\\])\../] : [])
+		.concat(options.ignore)
 	});
 
 	if (options.debug) {
